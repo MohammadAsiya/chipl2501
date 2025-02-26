@@ -12,7 +12,7 @@ class divisible
 		{
 			System.out.println(num+" is not divisible by 3");
 		}
-		boolean res=num%3==0?true:false;
-                System.out.println((num%3==0?true:false));            
+		String res=num%3==0?"Divisible by 3":"Not Divisible by 3";
+                System.out.println((num%3==0?"Divisible by 3":"Not Divisible by 3"));            
 	}
 }
